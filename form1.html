@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Components</title>
+    </head>
+    <body>
+        <center>
+            <h1>Rifa Enterprises</h1>
+            <form name="order" action="#" method="post">
+                <table cellspacing="10px" cellpadding="10px">
+                    <tbody>
+                        <tr>
+                            <td><label for="customer">Customer's name</label></td>
+                            <td><input type="text" name="customer" placeholder="Tell us your name"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mobile">Customer's Contact</label></td>
+                            <td><input type="number" name="contact" placeholder="Tell us your mobile"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Customer's Address</label></td>
+                            <td><textarea name="address" placeholder="Customer's delivery address"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="items">Customer's Wishlist</label></td>
+                            <td>
+                                <select name="items" multiple="true">
+                                    <option>Select Items</option>
+                                    <option>Multhani Soap</option>
+                                    <option>Sandal Soap</option>
+                                    <option>Coconut Soap</option>
+                                    <option>Neem Soap</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Place My Order"></td>
+                            <td><input type="reset" value="Cancel My Order"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
