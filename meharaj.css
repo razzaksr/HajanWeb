@@ -1,0 +1,22 @@
+body
+{
+    background-color: chocolate;
+}
+button
+{
+    color:darkblue;
+    background-color: cornsilk;
+    width:100px;
+    height:50px;
+    text-indent: 30px; 
+}
+button:active
+{
+    color:aqua;
+    background-color:chartreuse;
+}
+button:hover
+{
+    color:cornsilk;
+    background-color: darkblue;
+}
